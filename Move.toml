@@ -1,0 +1,16 @@
+[package]
+name = "Gambling"
+version = "1.0.0"
+authors = [Aashish Paliwal]
+
+[addresses]
+admin_addr='859a64bfdf60f37c623d70b888dc858965c7a35fc7010dc959c64a931b18fbf5'
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
